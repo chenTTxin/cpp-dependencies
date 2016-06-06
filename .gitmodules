@@ -10,3 +10,6 @@
 [submodule "third_party/gperftools"]
 	path = third_party/gperftools
 	url = https://github.com/gperftools/gperftools.git
+[submodule "third_party/protobuf"]
+	path = third_party/protobuf
+	url = https://github.com/google/protobuf.git
