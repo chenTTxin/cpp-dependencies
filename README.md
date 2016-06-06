@@ -2,7 +2,7 @@
 ### 下载并打包
 我写了一个install.sh脚本，执行下面的命令，会把C++依赖的所有github.com仓库打包
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/eflag-rd/cpp-dependencies/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/eflag-rd/cpp-dependencies/master/tools/download.sh)"
 ```
 
 ### 添加第三方库
