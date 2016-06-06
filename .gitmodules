@@ -13,3 +13,6 @@
 [submodule "third_party/protobuf"]
 	path = third_party/protobuf
 	url = https://github.com/google/protobuf.git
+[submodule "tools/git-archive-all"]
+	path = tools/git-archive-all
+	url = https://github.com/Kentzo/git-archive-all.git
