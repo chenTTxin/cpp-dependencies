@@ -16,3 +16,22 @@ cd ../..
 git add third_party/repo_name
 git commit -m "use repo_name as release-version"
 ```
+
+## 第三方库的用途
+使用`git submodule status`可以查看所使用的三方库版本
+#### googletest
++ googletest/googletest 单元测试
++ googletest/googlemock googletest的扩展，用于编写和使用C++ mock class
+
+#### gflags
++ 命令行参数组件
+
+#### glog
++ 日志组件
++ 安装时可以指定依赖gflags, `./configure --with-gflags=/path/to/gflags-header-directory`
+
+#### gperftools
++ 内部的tcmalloc组件，提供高效的内存管理，只需要编译时链接tcmalloc库
+
+#### protobuf
++ 消息序列化和反序列工具集
