@@ -7,11 +7,8 @@ if [ -d $repo_name ]; then
     exit 1
 fi
 
-git clone https://github.com/eflag-rd/cpp-dependencies.git
+git clone https://github.com/eflagcomm/${repo_name}.git
 cd $repo_name
-git submodule init
-git submodule update
-
-
-
+./tools/git-archive-all/git_archive_all.py ${repo_name}.tar.gz
 cd $old_dir
+mv ${repo_name}/${repo_name}.tar.gz .
